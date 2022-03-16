@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body{
+    background-color: #181818;
+}
+
+/* NavigationBar */
+
+nav{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 2% auto;
+    align-items: center
+}
+
+nav h1{
+    color: #6960DD;
+    font-family: 'Arvo', serif;
+    letter-spacing: 1.2px;
+    font-size: 1.7em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+    padding-right: 35px;
+}
+
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+/* LoginFormSection */
+
+
+.login__form{
+    background-color: transparent;
+    width: 50%;
+    margin: 13% auto;
+    border-radius: 7px;
+    height: auto;
+    display: flex;
+    margin-left: 60%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    flex-direction: column;
+}
+input {
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 2%;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid #6960DD;
+  }
+input[type=submit]{
+    background-color: transparent;
+    color: #6960DD;
+    font-size: 1.1em;
+    cursor: pointer;
+}
